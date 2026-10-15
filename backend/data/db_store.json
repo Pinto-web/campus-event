@@ -1,0 +1,523 @@
+{
+  "events": [
+    {
+      "id": "d9121d35-c784-4e50-ac62-41425dbe7012",
+      "_id": "05cb14a5-b378-455e-a2fa-08c5790fba85",
+      "title": "AI & Full-Stack Innovation Hackathon 2026",
+      "description": "Join campus tech enthusiasts for a 24-hour hackathon building cutting-edge web & AI applications using Gemini API and React. Prizes for best design, innovation, and social impact!",
+      "category": "Hackathon",
+      "department": "Computer Science",
+      "date": "2026-09-15",
+      "time": "09:00 AM - 05:00 PM",
+      "location": "Innovation Hub, Building C - Lab 402",
+      "speaker": "Dr. Aris Thorne",
+      "speakerRole": "AI Research Director & Tech Mentor",
+      "capacity": 60,
+      "registeredCount": 8,
+      "status": "Published",
+      "bannerGradient": "from-blue-600 via-indigo-600 to-purple-700",
+      "tags": [
+        "AI",
+        "React",
+        "Hackathon",
+        "Coding",
+        "Prizes"
+      ],
+      "agenda": [
+        {
+          "time": "09:00 AM",
+          "title": "Check-in & Team Formation"
+        },
+        {
+          "time": "10:00 AM",
+          "title": "Keynote & Prompting / API Masterclass"
+        },
+        {
+          "time": "11:00 AM",
+          "title": "Hacking Begins"
+        },
+        {
+          "time": "01:00 PM",
+          "title": "Networking Lunch"
+        },
+        {
+          "time": "04:00 PM",
+          "title": "Project Demos & Judging"
+        },
+        {
+          "time": "04:45 PM",
+          "title": "Award Ceremony"
+        }
+      ],
+      "createdAt": "2026-09-09T08:25:22.339Z",
+      "updatedAt": "2026-09-09T08:25:22.346Z"
+    },
+    {
+      "id": "d98ef8e5-d9ba-4cde-a657-dc188a9fedf9",
+      "_id": "119f0a90-f618-4262-8489-ba0e86f1d664",
+      "title": "Venture Capital & Student Startup Pitch Summit",
+      "description": "Learn how to transform your campus project into a funded startup. Featuring guest investor panels, elevator pitch sessions, and feedback from Silicon Valley alumni.",
+      "category": "Seminar",
+      "department": "Business & Management",
+      "date": "2026-09-18",
+      "time": "02:00 PM - 05:30 PM",
+      "location": "Grand Business Auditorium, Hall B",
+      "speaker": "Elena Rostova",
+      "speakerRole": "Managing Partner @ Apex Ventures",
+      "capacity": 120,
+      "registeredCount": 0,
+      "status": "Published",
+      "bannerGradient": "from-emerald-600 via-teal-600 to-cyan-700",
+      "tags": [
+        "Startup",
+        "Venture Capital",
+        "Entrepreneurship",
+        "Pitching"
+      ],
+      "agenda": [
+        {
+          "time": "02:00 PM",
+          "title": "Opening Remarks by Dean of Business"
+        },
+        {
+          "time": "02:30 PM",
+          "title": "Panel: Funding Student Ideas in 2026"
+        },
+        {
+          "time": "03:45 PM",
+          "title": "Live Pitch Battle (5 Teams)"
+        },
+        {
+          "time": "05:00 PM",
+          "title": "Investor Meet & Greet"
+        }
+      ],
+      "createdAt": "2026-09-09T08:25:22.340Z"
+    },
+    {
+      "id": "d9bc3077-4f0d-4fa0-bbb9-f39d748f228b",
+      "_id": "9f30d93d-1bd5-45b1-8697-3188d4a8bb5c",
+      "title": "Modern UI/UX Design System Masterclass",
+      "description": "Hands-on workshop covering CSS layout algorithms, typography systems, dark mode design tokens, micro-interactions, and accessibility standards.",
+      "category": "Workshop",
+      "department": "Arts & Humanities",
+      "date": "2026-09-12",
+      "time": "11:00 AM - 01:30 PM",
+      "location": "Digital Media Studio, Design Center",
+      "speaker": "Marcus Vance",
+      "speakerRole": "Principal Product Designer",
+      "capacity": 35,
+      "registeredCount": 0,
+      "status": "Sold Out",
+      "bannerGradient": "from-rose-600 via-pink-600 to-purple-600",
+      "tags": [
+        "UI/UX",
+        "Figma",
+        "CSS",
+        "Accessibility",
+        "Design"
+      ],
+      "agenda": [
+        {
+          "time": "11:00 AM",
+          "title": "Design Foundations & Contrast Math"
+        },
+        {
+          "time": "11:45 AM",
+          "title": "Building Fluid Layout Tokens"
+        },
+        {
+          "time": "12:30 PM",
+          "title": "Interactive Prototype Review"
+        }
+      ],
+      "createdAt": "2026-09-09T08:25:22.340Z"
+    },
+    {
+      "id": "05f219c8-973c-469f-b6ab-57b059e09799",
+      "_id": "6c243f78-07e1-4196-ada7-9eda610fa2ae",
+      "title": "Next-Gen Robotics & Autonomous Systems Demo",
+      "description": "Live field demonstration of quadrupeds, autonomous drones, and ROS2 navigation pipelines built by student engineering research groups.",
+      "category": "Workshop",
+      "department": "Engineering",
+      "date": "2026-09-22",
+      "time": "10:00 AM - 01:00 PM",
+      "location": "Engineering Quadrangle Outdoor Arena",
+      "speaker": "Prof. Hiroshi Tanaka",
+      "speakerRole": "Head of Robotics Research Lab",
+      "capacity": 100,
+      "registeredCount": 0,
+      "status": "Published",
+      "bannerGradient": "from-amber-500 via-orange-600 to-red-600",
+      "tags": [
+        "Robotics",
+        "ROS2",
+        "Drones",
+        "Engineering",
+        "Hardware"
+      ],
+      "agenda": [
+        {
+          "time": "10:00 AM",
+          "title": "Drone Navigation Flight Show"
+        },
+        {
+          "time": "11:15 AM",
+          "title": "Quadruped Sensor & Lidar Showcase"
+        },
+        {
+          "time": "12:30 PM",
+          "title": "Student Lab Tour & Recruitment"
+        }
+      ],
+      "createdAt": "2026-09-09T08:25:22.340Z"
+    },
+    {
+      "id": "f1ce3a8d-cb03-4973-b489-e0ab29d8f489",
+      "_id": "53d996fc-47ed-4231-95e7-3354ed29ecb9",
+      "title": "Annual Campus Cultural Festival & Music Night",
+      "description": "Celebrate diversity with international food stalls, acoustic band performances, traditional dance showcases, and interactive art installations.",
+      "category": "Cultural",
+      "department": "Student Life",
+      "date": "2026-09-25",
+      "time": "05:00 PM - 10:00 PM",
+      "location": "Central Lawn & Amphitheater",
+      "speaker": "Student Life Council",
+      "speakerRole": "Event Operations Team",
+      "capacity": 300,
+      "registeredCount": 0,
+      "status": "Published",
+      "bannerGradient": "from-fuchsia-600 via-purple-600 to-indigo-700",
+      "tags": [
+        "Music",
+        "Food",
+        "Culture",
+        "Dance",
+        "Festival"
+      ],
+      "agenda": [
+        {
+          "time": "05:00 PM",
+          "title": "Food Street & Global Booths Open"
+        },
+        {
+          "time": "06:30 PM",
+          "title": "Acoustic Stage Showcase"
+        },
+        {
+          "time": "08:00 PM",
+          "title": "Headliner Campus Band Performance"
+        }
+      ],
+      "createdAt": "2026-09-09T08:25:22.340Z"
+    },
+    {
+      "id": "3ce2ed93-1caa-40c1-83b9-b2a68bd66b42",
+      "_id": "3e44917f-4364-481c-9928-69d6b9e91789",
+      "title": "Cybersecurity & Ethical Hacking Bootcamp",
+      "description": "Learn capture-the-flag (CTF) techniques, vulnerability analysis, web security fundamentals, and network defense strategies.",
+      "category": "Workshop",
+      "department": "Computer Science",
+      "date": "2026-09-28",
+      "time": "01:00 PM - 04:30 PM",
+      "location": "Cyber Range Security Lab 204",
+      "speaker": "Samantha Chen",
+      "speakerRole": "Lead Security Analyst",
+      "capacity": 40,
+      "registeredCount": 0,
+      "status": "Published",
+      "bannerGradient": "from-cyan-600 via-blue-700 to-slate-900",
+      "tags": [
+        "Cybersecurity",
+        "CTF",
+        "Hacking",
+        "Web Security"
+      ],
+      "agenda": [
+        {
+          "time": "01:00 PM",
+          "title": "Threat Vectors & OWASP Top 10"
+        },
+        {
+          "time": "02:15 PM",
+          "title": "Hands-on CTF Challenge Session"
+        },
+        {
+          "time": "04:00 PM",
+          "title": "Leaderboard & Security Careers Q&A"
+        }
+      ],
+      "createdAt": "2026-09-09T08:25:22.340Z"
+    },
+    {
+      "id": "7e96b487-358b-405e-9535-1265b0716cd3",
+      "_id": "5450e512-67b9-4dfe-b485-2f2f45b0ce48",
+      "title": "Inter-College Esports Tournament & Gaming Expo",
+      "description": "Compete in Valorant and Rocket League tournaments or try latest VR indie games created by campus game development club members.",
+      "category": "Sports",
+      "department": "Student Life",
+      "date": "2026-10-02",
+      "time": "12:00 PM - 07:00 PM",
+      "location": "Student Union Game Arena & Lounge",
+      "speaker": "Campus Gaming Society",
+      "speakerRole": "Tournament Directors",
+      "capacity": 150,
+      "registeredCount": 0,
+      "status": "Published",
+      "bannerGradient": "from-violet-600 via-purple-600 to-pink-600",
+      "tags": [
+        "Esports",
+        "Gaming",
+        "VR",
+        "Tournament",
+        "Community"
+      ],
+      "agenda": [
+        {
+          "time": "12:00 PM",
+          "title": "Tournament Qualifiers"
+        },
+        {
+          "time": "03:30 PM",
+          "title": "VR Showcase & Arcade Free Play"
+        },
+        {
+          "time": "05:30 PM",
+          "title": "Grand Finals & Trophy Ceremony"
+        }
+      ],
+      "createdAt": "2026-09-09T08:25:22.340Z"
+    },
+    {
+      "id": "0bd1e57b-386d-4a3e-9a36-a5e91a9a735c",
+      "_id": "966f454e-28a6-4bee-8aed-3e0b3cce6e28",
+      "title": "Quantum Computing & Clean Energy Research Forum",
+      "description": "Keynote lectures on quantum algorithms, solid-state batteries, and sustainable energy grid modeling by visiting faculty.",
+      "category": "Seminar",
+      "department": "Science",
+      "date": "2026-10-05",
+      "time": "10:30 AM - 01:00 PM",
+      "location": "Science Lecture Hall A",
+      "speaker": "Dr. Robert Oppenheim",
+      "speakerRole": "Professor of Applied Physics",
+      "capacity": 80,
+      "registeredCount": 0,
+      "status": "Published",
+      "bannerGradient": "from-teal-600 via-emerald-600 to-blue-700",
+      "tags": [
+        "Quantum",
+        "Physics",
+        "Clean Energy",
+        "Science",
+        "Research"
+      ],
+      "agenda": [
+        {
+          "time": "10:30 AM",
+          "title": "Quantum Qubit Architectures"
+        },
+        {
+          "time": "11:45 AM",
+          "title": "Energy Transition Models"
+        },
+        {
+          "time": "12:30 PM",
+          "title": "Panel Q&A"
+        }
+      ],
+      "createdAt": "2026-09-09T08:25:22.342Z"
+    },
+    {
+      "id": "7f9992c6-6897-4172-b9c4-e5bbfd6fa865",
+      "_id": "0846a965-87b2-4cb6-941f-205149b8f389",
+      "title": "Cyber AI Summit 2026",
+      "description": "",
+      "category": "Seminar",
+      "department": "Computer Science",
+      "date": "2026-10-10",
+      "time": "10:00 AM",
+      "location": "Auditorium 101",
+      "speaker": "TBA",
+      "speakerRole": "Guest Speaker",
+      "capacity": 50,
+      "registeredCount": 1,
+      "status": "Published",
+      "bannerGradient": "from-indigo-600 to-purple-600",
+      "tags": [
+        "Campus"
+      ],
+      "agenda": [
+        {
+          "time": "10:00 AM",
+          "title": "Welcome & Introduction"
+        },
+        {
+          "time": "10:30 AM",
+          "title": "Main Keynote Session"
+        },
+        {
+          "time": "11:45 AM",
+          "title": "Q&A & Networking"
+        }
+      ],
+      "createdAt": "2026-09-09T08:27:57.324Z",
+      "updatedAt": "2026-09-09T08:28:06.433Z"
+    }
+  ],
+  "registrations": [
+    {
+      "id": "a0d30429-7a33-46bf-a5db-46d12af69320",
+      "_id": "89e5ad6b-3727-4e10-af7d-ba74927638d4",
+      "eventId": "d9121d35-c784-4e50-ac62-41425dbe7012",
+      "eventTitle": "AI & Full-Stack Innovation Hackathon 2026",
+      "eventDate": "2026-09-15",
+      "eventTime": "09:00 AM - 05:00 PM",
+      "eventLocation": "Innovation Hub, Building C - Lab 402",
+      "studentName": "Alex Rivera",
+      "studentEmail": "alex.rivera@campus.edu",
+      "studentId": "STU-8821",
+      "department": "Computer Science",
+      "passCode": "EVT-972435",
+      "checkedIn": false,
+      "checkedInAt": null,
+      "registeredAt": "2026-09-09T08:25:22.345Z"
+    },
+    {
+      "id": "1c8b9c01-5430-459a-8d59-ef62801675a8",
+      "_id": "6c4276b4-51e0-417a-8109-6c10faed6c8c",
+      "eventId": "d9121d35-c784-4e50-ac62-41425dbe7012",
+      "eventTitle": "AI & Full-Stack Innovation Hackathon 2026",
+      "eventDate": "2026-09-15",
+      "eventTime": "09:00 AM - 05:00 PM",
+      "eventLocation": "Innovation Hub, Building C - Lab 402",
+      "studentName": "Sophia Lin",
+      "studentEmail": "sophia.lin@campus.edu",
+      "studentId": "STU-9402",
+      "department": "Computer Science",
+      "passCode": "EVT-332988",
+      "checkedIn": false,
+      "checkedInAt": null,
+      "registeredAt": "2026-09-09T08:25:22.345Z"
+    },
+    {
+      "id": "4c94174f-9391-404f-bb20-0fc1108c559f",
+      "_id": "9a5a24bc-6786-4fab-828b-d2793f1375fa",
+      "eventId": "d9121d35-c784-4e50-ac62-41425dbe7012",
+      "eventTitle": "AI & Full-Stack Innovation Hackathon 2026",
+      "eventDate": "2026-09-15",
+      "eventTime": "09:00 AM - 05:00 PM",
+      "eventLocation": "Innovation Hub, Building C - Lab 402",
+      "studentName": "Jordan Patel",
+      "studentEmail": "jordan.patel@campus.edu",
+      "studentId": "STU-7310",
+      "department": "Engineering",
+      "passCode": "EVT-972869",
+      "checkedIn": false,
+      "checkedInAt": null,
+      "registeredAt": "2026-09-09T08:25:22.345Z"
+    },
+    {
+      "id": "52436ea9-7369-4881-91d1-91cb8db87db9",
+      "_id": "459d006e-a025-4018-8c0b-2f63e0837d54",
+      "eventId": "d9121d35-c784-4e50-ac62-41425dbe7012",
+      "eventTitle": "AI & Full-Stack Innovation Hackathon 2026",
+      "eventDate": "2026-09-15",
+      "eventTime": "09:00 AM - 05:00 PM",
+      "eventLocation": "Innovation Hub, Building C - Lab 402",
+      "studentName": "Emily Carter",
+      "studentEmail": "emily.carter@campus.edu",
+      "studentId": "STU-5524",
+      "department": "Business & Management",
+      "passCode": "EVT-588153",
+      "checkedIn": false,
+      "checkedInAt": null,
+      "registeredAt": "2026-09-09T08:25:22.346Z"
+    },
+    {
+      "id": "000db787-1986-48ad-b61a-589441078e6c",
+      "_id": "10257769-75db-4997-a536-3fad2194e20a",
+      "eventId": "7f9992c6-6897-4172-b9c4-e5bbfd6fa865",
+      "eventTitle": "Cyber AI Summit 2026",
+      "eventDate": "2026-10-10",
+      "eventTime": "10:00 AM",
+      "eventLocation": "Auditorium 101",
+      "studentName": "Samantha Vance",
+      "studentEmail": "samantha.vance@campus.edu",
+      "studentId": "STU-7711",
+      "department": "Computer Science",
+      "passCode": "EVT-284392",
+      "checkedIn": true,
+      "checkedInAt": "2026-09-09T08:29:32.526Z",
+      "registeredAt": "2026-09-09T08:28:06.433Z"
+    },
+    {
+      "id": "93ab0427-0a2d-4b13-8089-fbfaa40d5dde",
+      "_id": "17f52b90-8993-410d-be3f-76772541c549",
+      "eventId": "d9121d35-c784-4e50-ac62-41425dbe7012",
+      "eventTitle": "AI & Full-Stack Innovation Hackathon 2026",
+      "eventDate": "2026-09-15",
+      "eventTime": "09:00 AM - 05:00 PM",
+      "eventLocation": "Innovation Hub, Building C - Lab 402",
+      "studentName": "Alex Rivera",
+      "studentEmail": "alex.rivera@campus.edu",
+      "studentId": "STU-8821",
+      "department": "Computer Science",
+      "passCode": "EVT-139543",
+      "checkedIn": false,
+      "checkedInAt": null,
+      "registeredAt": "2026-09-09T16:11:47.322Z"
+    },
+    {
+      "id": "f61b0f22-a22a-4537-a1ce-b5d9f129cf9d",
+      "_id": "608e6e71-5559-46f5-951b-7389cd579f78",
+      "eventId": "d9121d35-c784-4e50-ac62-41425dbe7012",
+      "eventTitle": "AI & Full-Stack Innovation Hackathon 2026",
+      "eventDate": "2026-09-15",
+      "eventTime": "09:00 AM - 05:00 PM",
+      "eventLocation": "Innovation Hub, Building C - Lab 402",
+      "studentName": "Sophia Lin",
+      "studentEmail": "sophia.lin@campus.edu",
+      "studentId": "STU-9402",
+      "department": "Computer Science",
+      "passCode": "EVT-579812",
+      "checkedIn": false,
+      "checkedInAt": null,
+      "registeredAt": "2026-09-09T16:11:47.323Z"
+    },
+    {
+      "id": "5ae11658-a497-443b-b394-f86b2a45a5ed",
+      "_id": "2a910169-917a-459b-a591-09dd1cd14845",
+      "eventId": "d9121d35-c784-4e50-ac62-41425dbe7012",
+      "eventTitle": "AI & Full-Stack Innovation Hackathon 2026",
+      "eventDate": "2026-09-15",
+      "eventTime": "09:00 AM - 05:00 PM",
+      "eventLocation": "Innovation Hub, Building C - Lab 402",
+      "studentName": "Jordan Patel",
+      "studentEmail": "jordan.patel@campus.edu",
+      "studentId": "STU-7310",
+      "department": "Engineering",
+      "passCode": "EVT-301040",
+      "checkedIn": false,
+      "checkedInAt": null,
+      "registeredAt": "2026-09-09T16:11:47.323Z"
+    },
+    {
+      "id": "55541964-0b77-417c-b8b6-cb8f68477d5d",
+      "_id": "8fdf2194-8057-4ea2-b6d0-6cd42db3d03f",
+      "eventId": "d9121d35-c784-4e50-ac62-41425dbe7012",
+      "eventTitle": "AI & Full-Stack Innovation Hackathon 2026",
+      "eventDate": "2026-09-15",
+      "eventTime": "09:00 AM - 05:00 PM",
+      "eventLocation": "Innovation Hub, Building C - Lab 402",
+      "studentName": "Emily Carter",
+      "studentEmail": "emily.carter@campus.edu",
+      "studentId": "STU-5524",
+      "department": "Business & Management",
+      "passCode": "EVT-383200",
+      "checkedIn": false,
+      "checkedInAt": null,
+      "registeredAt": "2026-09-09T16:11:47.325Z"
+    }
+  ],
+  "users": []
+}

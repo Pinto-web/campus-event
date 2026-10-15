@@ -1,0 +1,19 @@
+{
+  "name": "campus-event-portal",
+  "version": "1.0.0",
+  "description": "Full-stack MERN Campus Event Discovery and Registration Portal",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "backend": "node backend/server.js",
+    "seed": "node backend/seed.js",
+    "frontend": "npm --prefix frontend run dev",
+    "dev": "node backend/server.js",
+    "build": "npm --prefix frontend run build"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^4.22.2",
+    "uuid": "^9.0.1"
+  }
+}
