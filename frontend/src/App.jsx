@@ -105,7 +105,7 @@ export default function App() {
           </button>
 
           {/* Nav Tabs */}
-          <nav className="flex items-center gap-1 bg-stone-100 border border-stone-200 p-1 rounded-xl">
+          <nav className="flex items-center gap-1 bg-stone-100 border border-stone-200 p-1 rounded-xl shadow-sm">
             {isAdmin ? (
               <>
                 <button
@@ -158,7 +158,7 @@ export default function App() {
           {/* User Controls */}
           <div className="flex items-center gap-2">
             {currentUser ? (
-              <div className="flex items-center gap-2 bg-white border border-stone-200 rounded-xl px-3 py-1.5 shadow-sm">
+              <div className="flex items-center gap-2 bg-white border border-stone-200 rounded-xl px-3 py-1.5 shadow-sm transition-shadow hover:shadow-md">
                 <div className="text-right hidden sm:block">
                   <div className="text-xs font-bold text-stone-800 leading-tight">{currentUser.name}</div>
                   <div className={`text-[10px] font-semibold uppercase tracking-wide leading-tight ${isAdmin ? 'text-violet-600' : 'text-[#d95b2b]'}`}>

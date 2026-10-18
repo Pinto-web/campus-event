@@ -60,7 +60,7 @@ export default function LandingPortal({ onAuthSuccess, onGuestBrowse, showToast 
       <header className="site-header sticky top-0 z-40">
         <div className="max-w-6xl mx-auto px-5 h-15 py-3 flex items-center justify-between">
           <div className="flex items-center gap-2.5">
-            <div className="w-9 h-9 rounded-xl bg-[#1e3a5f] flex items-center justify-center">
+            <div className="w-9 h-9 rounded-xl bg-[#1e3a5f] flex items-center justify-center shadow-lg shadow-slate-900/15">
               <Calendar className="w-[18px] h-[18px] text-white" />
             </div>
             <div>
@@ -77,7 +77,7 @@ export default function LandingPortal({ onAuthSuccess, onGuestBrowse, showToast 
       </header>
 
       {/* ── Hero + Auth ── */}
-      <main className="flex-1 max-w-6xl mx-auto w-full px-5 py-12 grid grid-cols-1 lg:grid-cols-2 gap-10 items-start">
+      <main className="flex-1 max-w-6xl mx-auto w-full px-5 py-10 sm:py-12 grid grid-cols-1 lg:grid-cols-2 gap-10 items-start">
 
         {/* Left — Hero */}
         <div className="space-y-8 pt-4">
@@ -97,7 +97,7 @@ export default function LandingPortal({ onAuthSuccess, onGuestBrowse, showToast 
           {/* Feature Grid */}
           <div className="grid grid-cols-2 gap-3">
             {FEATURES.map((f) => (
-              <div key={f.title} className="card-flat p-4 rounded-xl">
+              <div key={f.title} className="card-flat p-4 rounded-xl transition-all duration-200 hover:-translate-y-0.5 hover:shadow-md">
                 <div className="text-2xl mb-1.5">{f.icon}</div>
                 <div className="text-sm font-bold text-stone-800 mb-0.5">{f.title}</div>
                 <div className="text-xs text-stone-500 leading-relaxed">{f.desc}</div>
@@ -107,7 +107,7 @@ export default function LandingPortal({ onAuthSuccess, onGuestBrowse, showToast 
         </div>
 
         {/* Right — Auth Card */}
-        <div className="card rounded-2xl p-7 shadow-md sticky top-24">
+        <div className="card rounded-2xl p-7 sm:p-8 shadow-xl sticky top-24 border-stone-200/90">
 
           {/* Role Toggle */}
           <div className="flex items-center gap-1.5 bg-stone-100 border border-stone-200 p-1 rounded-xl mb-6">
