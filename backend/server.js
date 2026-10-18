@@ -45,14 +45,30 @@ app.get('*', (req, res, next) => {
   }
 });
 
-// Start Server & Seed Initial Data
-app.listen(PORT, '0.0.0.0', async () => {
-  console.log(`🚀 [Server] Campus Event REST API listening on http://0.0.0.0:${PORT}`);
+// Start Server & Seed Initial Data (only when running directly, not on Vercel)
+if (require.main === module) {
+  app.listen(PORT, '0.0.0.0', async () => {
+    console.log(`🚀 [Server] Campus Event REST API listening on http://0.0.0.0:${PORT}`);
+    try {
+      await db.connectDB();
+      await seedData();
+    } catch (err) {
+      console.error('Error seeding initial data:', err);
+    }
+  });
+}
+
+// Initialize DB connection for serverless environments
+const initServerless = async () => {
   try {
     await db.connectDB();
     await seedData();
   } catch (err) {
-    console.error('Error seeding initial data:', err);
+    console.error('Error initializing serverless DB:', err);
   }
-});
+};
+
+initServerless();
+
+module.exports = app;
 
