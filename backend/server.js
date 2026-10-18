@@ -58,7 +58,9 @@ if (require.main === module) {
   });
 }
 
-// Initialize DB connection for serverless environments
+// Initialize DB connection for serverless environments only. When this file is
+// run directly, the app.listen callback below owns initialization so the
+// connection and seed process are not started twice.
 const initServerless = async () => {
   try {
     await db.connectDB();
@@ -68,7 +70,8 @@ const initServerless = async () => {
   }
 };
 
-initServerless();
+if (require.main !== module) {
+  initServerless();
+}
 
 module.exports = app;
-

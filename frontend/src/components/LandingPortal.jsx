@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Calendar, GraduationCap, ShieldCheck, User, Mail, Lock, KeyRound, Building, ArrowRight, AlertCircle } from 'lucide-react';
+import { Calendar, GraduationCap, ShieldCheck, User, Mail, Lock, KeyRound, Building, ArrowRight, AlertCircle, Eye, EyeOff } from 'lucide-react';
 
 const FEATURES = [
   { icon: '🗓️', title: 'Live Event Feed', desc: 'Hackathons, workshops, cultural fests & seminars — all in one place.' },
@@ -22,6 +22,7 @@ export default function LandingPortal({ onAuthSuccess, onGuestBrowse, showToast 
   });
   const [loading, setLoading] = useState(false);
   const [errorMsg, setErrorMsg] = useState('');
+  const [showPassword, setShowPassword] = useState(false);
 
   const set = (k) => (e) => setFormData({ ...formData, [k]: e.target.value });
 
@@ -175,8 +176,17 @@ export default function LandingPortal({ onAuthSuccess, onGuestBrowse, showToast 
               <span className="text-xs font-semibold text-stone-600 mb-1 block">Password *</span>
               <div className="relative">
                 <Lock className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-stone-400" />
-                <input type="password" required minLength={6} placeholder="••••••••" value={formData.password} onChange={set('password')}
-                  className="input-field pl-9" />
+                <input type={showPassword ? 'text' : 'password'} required minLength={6} placeholder="••••••••" value={formData.password} onChange={set('password')}
+                  className="input-field pl-9 pr-10" />
+                <button
+                  type="button"
+                  onClick={() => setShowPassword(!showPassword)}
+                  aria-label={showPassword ? 'Hide password' : 'Show password'}
+                  title={showPassword ? 'Hide password' : 'Show password'}
+                  className="absolute right-2 top-1/2 -translate-y-1/2 p-1 text-stone-400 hover:text-stone-600 transition-colors"
+                >
+                  {showPassword ? <EyeOff className="w-4 h-4" /> : <Eye className="w-4 h-4" />}
+                </button>
               </div>
             </label>
 
